@@ -14,6 +14,9 @@ public class Main {
                 if (rs.next()) {
                     System.out.println("Database time: " + rs.getTimestamp(1));
                 }
+
+
+
             }
         } catch (SQLException e) {
             System.out.println("Error while connecting to database:");
